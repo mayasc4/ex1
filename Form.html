@@ -7,7 +7,7 @@
 	</head>
  	<body>
         <header>
-            <h1>This is the Home Page</h1>
+            <h1>This is the Forms Page</h1>
         </header>
         <main>
             <form action="http://www.google.co.il/search" method="get">
@@ -22,26 +22,23 @@
                 </div>
             </form>
 
-            <form action="http://www.google.co.il/search" method="get">
+            <form action="http://www.someFakeAddress.com" method="get">
                 <h2>Contact Form</h2>
-                <div>
+                <fieldset>
+                    <legend>Contact Form</legend>
                     <label for="name">Name: 
                         <input type="text" id="name" name="name" placeholder="Enter Name Here"/>
                     </label>
-                </div>
-                <div>
                     <label for="email">Email: 
                         <input type="text" id="email" name="email" placeholder="Example: mayasc@wix.com"/>
                     </label>
-                </div>
-                <div>
                     <label for="msg">Message: 
                         <textarea id="msg"></textarea>
                     </label>
-                </div>
-                <div class="button">
-                    <button type="submit">Submit To User Database</button>
-                </div>
+                    <div class="button">
+                        <button type="submit">Submit To User Database</button>
+                    </div>
+                </fieldset>
             </form>
         </main>
         <footer>
