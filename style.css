@@ -2,3 +2,8 @@
 	position: absolute;
 	visibility: hidden;
 }
+
+#rehearsal {
+	width: 50%;
+    height: 50%;
+}
