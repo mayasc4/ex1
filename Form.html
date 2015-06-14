@@ -13,8 +13,9 @@
             <form action="http://www.google.co.il/search" method="get">
                 <h2>Google Search Form</h2>
                 <div>
-                    <label for="q">Search This:</label>
-                    <input type="text" name="q"/>
+                    <label for="q">Search This:
+                        <input type="text" id="q" name="q"/>
+                    </label>
                 </div>
                 <div class="button">
                     <button type="submit">Search Google</button>
@@ -24,8 +25,15 @@
             <form action="http://www.google.co.il/search" method="get">
                 <h2>Contact Form</h2>
                 <div>
-                    <label for="first-name">First NameL</label>
-                    <input type="text" name="first-name"/>
+                    <label for="name">Name
+                        <input type="text" id="name" name="name" placeholder="Enter Name Here"/>
+                    </label>
+                    <label for="email">Email
+                        <input type="text" id="email" name="email" placeholder="Example: mayasc@wix.com"/>
+                    </label>
+                    <label for="msg">
+                        <textarea id="msg"></textarea>
+                    </label>
                 </div>
                 <div class="button">
                     <button type="submit">Submit To User Database</button>
