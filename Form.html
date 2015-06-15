@@ -29,28 +29,65 @@
                     <legend>Contact Form</legend>
                     <div>
                         <label for="name">Name: 
-                            <input type="text" id="name" name="name" placeholder="Enter Name Here"/>
+                            <input type="text" id="name" name="name" placeholder="Enter Name Here" required/>
                         </label>
                     </div>
                     <div>
                         <label for="email">Email: 
-                            <input type="email" id="email" name="email" placeholder="Example: mayasc@wix.com"/>
+                            <input type="email" id="email" name="email" placeholder="Example: mayasc@wix.com" required/>
                         </label>
                     </div>
                     <div>
                         <label for="msg">Message: 
-                            <textarea id="msg"></textarea>
+                            <textarea id="msg" required></textarea>
                         </label>
                     </div>
                     <div>
-                        <input type="checkbox" name="title" value="Mister" checked>Mister</input>
-                        <input type="checkbox" name="title" value="Miss">Miss</input>
+                        <label for="title">Select a title:
+                            <input type="radio" id="title" name="title" value="Mister" checked>Mister</input>
+                            <input type="radio" id="title" name="title" value="Miss">Miss</input>
+                        </label>
+                    </div> 
+                    <div>
+                        <label for="select">Select a pink:
+                            <select name="favorite-color">
+                                <option value="pink">Pink</option>
+                                <option value="light-pink">Light Pink</option>
+                                <option value="dark-pink">Dark Pink</option>
+                            </select>
+                        </label>
+                    </div> 
+                    <div>
+                        <label for="browser">Select a favorit browser:</label>
+                        <input id="browser" list="browsers" />
+                        <datalist id="browsers">
+                            <option value="Chrome">
+                            <option value="Firefox">
+                            <option value="Internet Explorer">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="color">Choose a color:</label>
+                        <input type="color" id="color"/>
+                    </div>
+                    <div>
+                        <label for="bday">Enter your birthday:</label>
+                        <input type="date" id="bday"/>
+                    </div>
+                    <div>
+                        <p>I am <meter min="0" max="100" value="84">B</meter> happy.</p>
                     </div>  
                     <div class="button">
                         <button type="submit">Submit To User Database</button>
                     </div>
                 </fieldset>
             </form>
+            <form>
+                <label for="search">Search:</label>
+                <input type="search" id="search"/>
+            </form> 
         </main>
         <footer>
             <blockquote>
