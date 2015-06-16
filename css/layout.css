@@ -1,3 +1,40 @@
+h1, footer {
+    text-align: center;
+}
+
+fieldset {
+    display:inline;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form {
+    margin: 30px;
+    text-align: center;
+}
+
+article {
+    border: 2px solid black;
+    margin: 0 40px;
+    padding: 20px;
+}
+
+main#blog section {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.site-navigator {
+    list-style-type: none;
+    text-align: center;
+}
+
+.site-navigator li {
+    display: inline;
+    margin: 20px;
+}
+
 #rehearsal {
     width: 50%;
     height: 50%;

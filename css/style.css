@@ -1,6 +1,6 @@
-@import url("colors.css") colors;
-@import url("fonts.css") fonts;
-@import url("layout.css") layout;
+@import url("colors.css");
+@import url("fonts.css");
+@import url("layout.css");
 
 
 .visually-hidden {
